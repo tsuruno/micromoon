@@ -30,5 +30,5 @@ micromoonは[keyball](https://github.com/Yowkees/keyball/)用のlowprofile版ト
 
 ## Build Guide
 
-ビルドガイドは[こちら](https://github.com/tsuruno/micromoon/buildguide/buildguide.md)
+ビルドガイドは[こちら](https://github.com/tsuruno/micromoon/blob/master/buildguide/buildguide.md)
 ![alt text](resource/about2.png)
