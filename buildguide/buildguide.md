@@ -20,13 +20,13 @@
 ![alt text](resource/kit.png)
 
 | 名前 | 数 | 備考 |
-|:-|---:|:-|
+|:-|-:|:-|
 |メイン基板|1組||
 |PMW3360DM-T2QU| 1個|トラックボールセンサー|
-|7pin ピンヘッダ(オスメス)|1組||
-|トラックボールケース| 1組 | 3Dプリント品|
-|ネジ| 3個 ||
-|ベアリング|3個||
+|7pin ピンヘッダ(オスメス)|1組|上の写真に入れ忘れました|
+|トラックボールケース| 1組 |3Dプリント品|
+|ネジ| 3個 |keyballへの取付ネジは付属していません|
+|ベアリング|3個|動作確認としてトラックボールケースに取り付けている場合があります|
 
 25mmトラックボールは以下からお求め下さい
 + [エレコム トラックボール用交換ボール 直径25mm M-RT1DRBK/M-RT1BRXBKレッド M-B25RD](https://www.amazon.co.jp/%E3%82%A8%E3%83%AC%E3%82%B3%E3%83%A0-%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%E7%94%A8%E4%BA%A4%E6%8F%9B%E3%83%9C%E3%83%BC%E3%83%AB-M-RT1DRBK-M-RT1BRXBK%E3%83%AC%E3%83%83%E3%83%89-M-B25RD/dp/B0D4DYH8XY/ref=sr_1_5_pp?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=288TQ0WQ2PHAG&dib=eyJ2IjoiMSJ9.7e1m5Nvhz2OQyDgK9OTI5QSD2GTxSldG4gbLIXYjfCfC-v5XC7RZ9kXs65EXkVboMaPECA7TTQLBI0kVbC7STmc_jhn1kWkoFWdb7JhAsqX5qrK0wluneXsBx6oBwbfP54VZwZzM-3YfefecH50XqmHfKmWqQQ04qdzBZCBJdP0t71J0vRUSkEOu5nIjL_6MBTQwKdGsOAz19CJQqFOa4rs1AhIeXTuH8pLk9DEclAyKLFr1LjgclVMLVZmzD4QEdjOtZxFWPsa8EFyUBm-9hA6ItrOlNyrCyZbI1w174GYNbKbTv1EVcvHBVHjA-3PMR4ykTJGtembiLG9tuucFgDKzGvYfM9HiILAW2QykCculCvMT41fn3JLf2cK92-_7hxzrva2r7jUYjpbxN938KiQpLBxPqzlnyAX66dPkAR2JhXQs6L8nl71MeQvLI5IG.2mYeFq9_INv17XTvtjXYfzjNRdK5a4L8RTNsG3vPCGk&dib_tag=se&keywords=25mm+%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB&qid=1737887801&sprefix=25mm+%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%2Caps%2C226&sr=8-5)
@@ -38,6 +38,7 @@
 |:-|:-|
 |はんだごて||
 |はんだ||
+|ニッパー||
 |ドライバ||
 |やすり||
 
@@ -61,43 +62,47 @@
 ![alt text](resource/5.png)
 
 センサー側の基板は以下の通りです。
+はんだして固定して下さい。
 ※穴とのサイズが丁度のサイズなので、垂直にはめて下さい。
 ![alt text](resource/3.png)
 (左): 組み立て後
 (右): 組み立て前
 
 コンスルー側の基板は以下の通りです。
+はんだして固定して下さい。
 ![alt text](resource/4.png)
 (左): 組み立て後
 (右): 組み立て前
 
-最後にピンヘッダを合わせます
-![alt text](resource/8.png)
-
 #### 処理
 
-コンスルー側の半田を盛り過ぎるとkeyballの基板を傷つける場合があります。
+コンスルー側の半田を盛り過ぎるとkeyballの基板と接触して傷つける場合があります。<br>
 keyballのGNDが近くに走っているため、回路がショートして動かない事象がある可能性があるので、強めにやすりがけをします。
+
 ![alt text](resource/6.png)
+
 イメージ図
 ![alt text](resource/9.png)
 
 オプションにはなりますが、絶縁テープをkeyball基板に貼ってショートしないように保護することをオススメします
 ![alt text](resource/10.png)
 
+最後に基板同士のピンヘッダを合わせます
+![alt text](resource/8.png)
+
 #### 取付
 
 keyballのコンスルーに取り付けます。
 ![alt text](resource/11.png)
 
-ケースを上から被せて取り付けると、安定します。
+ケースを上から若干被せて取り付けると、安定します。
 ![alt text](resource/12.png)
 
 最後にケースを裏面からネジで締めて固定します。
 
 ### 動作確認
 
-専用のマイコンの書き込みは不要です。
+専用のマイコンの書き込みは不要です。<br>
 電源を入れてマウスカーソルが動けば動作確認完了です。
 
 ## トラブルシューティング
